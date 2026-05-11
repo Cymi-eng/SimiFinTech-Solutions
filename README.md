@@ -82,7 +82,7 @@ Installation & Setup
 
 bash
 
-git clone https://github.com/cymi-eng/SimiFinTech.git
+git clone https://github.com/cymi-eng/SimiFinTech-Solutions.git
 
 cd SimiFinTech
 
