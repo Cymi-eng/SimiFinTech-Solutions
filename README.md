@@ -1,7 +1,7 @@
-# SimiFinTech Solutions #
+# SimiFinTech-Solutions #
 **overview**
 
-SimiFinTech is a full stack digital platform designed to offer online services by providing professional and simple easy to use tools.
+SimiFinTech-Solutions is a full stack digital platform designed to offer online services by providing professional and simple easy to use tools.
 
 The system breaks the common used methods of physical presentation in cybers and it controls the modern space of cyber services all in one place giving people a work from anywhere solution.
 
@@ -57,7 +57,7 @@ Dashboard & Analytics
 - CloudHosting (AWS / Render / Azure )
 
 ```
-SimiFinTech Solutions/
+SimiFinTech-Solutions/
 │
 ├── frontend/                # React application
 │   ├── src/
@@ -82,7 +82,7 @@ Installation & Setup
 
 bash
 
-git clone https://github.com/cymi-eng/SimiFinTechsolutions.git
+git clone https://github.com/cymi-eng/SimiFinTech.git
 
 cd SimiFinTech
 
@@ -102,9 +102,9 @@ Backend Setup (Django)
 **Bash**
 
 # Clone repository
-git clone [https://github.com/cymi-eng/SimiFinTech solutions.git](https://github.com/cymi-eng/SimiFinTechsolutions.git)
+git clone [https://github.com/cymi-eng/SimiFinTech-Solutions.git](https://github.com/cymi-eng/SimiFinTech-Solutions.git)
 
-cd jua-kali-connect/backend
+cd SimiFinTech-Solutions/
 
 # Create virtual environment
 python -m venv env
