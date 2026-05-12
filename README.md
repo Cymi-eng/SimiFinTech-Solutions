@@ -90,12 +90,13 @@ Simply open the index.html file in your preferred browser to view the current bu
 npm start
 ![ website ](assets/images/christopher.jpg)
 
-
+## Project structure
+```text
 SimiFinTech-Solutions/
 ├── assets/          # Images, logos
 ├── index.html       # Main landing page
 └── contact.html     # Inquiry and lead generation page
-
+```
 
 Author
 
