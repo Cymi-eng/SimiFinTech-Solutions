@@ -93,7 +93,7 @@ npm start
 ## Project structure
 ```text
 SimiFinTech-Solutions/
-├── assets/          # Images, logos
+├── assets/          # Images
 ├── index.html       # Main landing page
 └── contact.html     # Inquiry and lead generation page
 ```
