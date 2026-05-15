@@ -5,77 +5,147 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SimiFinTech Solutions</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
          <!--header-->
-     <header>
-        <nav>
-             <h1>Welcome to SimiFinTech Solutions</h1>   
-             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">services</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="mail:eaiancymi@gmail.com">contact</a></li>
+     <header class="main-header">
+        <h1>Welcome to SimiFinTech Solutions</h1> 
+        <p>Digital services made easier</p>  
+         <nav>     
+             <ul class="nav-links">
+                <li><a href="#Home">Home</a> </li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#contact">contact</a></li>
              </ul>
         </nav>
     </header>
 
         <!--Hero Section-->
-        <section id="Home">
+        <section id="Home" class="showcase-area">
 
             <h2>Better Quality online products and services</h2>
-            <p>SimiFinTech offers all online services that are easy to use and interact with at the comfort of your home</p>
-            <button>Get started</button>
+            <div class="line"></div>
+           <p>
+                Welcome to SimifinTech — where innovation meets technology.<br>
+            We provide modern tech solutions, digital services, and creative<br>
+            innovations designed to help businesses and individuals grow in
+            the digital world.
+            </p>  
+             <p>SimiFinTech offers all online services that are easy to use and <br>
+                interact with at the comfort of your home</p>
+          
+            <button>explore services</button>
 
         </section>
 
         <!--Services section-->
-        <section id="services">
+        <section id="Services" class="service-list">
             <h2>services offered</h2>
             <div> 
                 <h3>E-citizen services</h3>
-                <p> responsive clear website to pay and inquire government services at the comfort of your pace </p>
+                <div class="citizen-info">
+                     <p >
+                        At SimifinTech, we help clients access important government<br>
+                        services quickly and efficiently through the E-Citizen platform.<br>
+                        We assist with applications, registrations, updates, and document<br>
+                        processing to make online government services easier for everyone.
+                     </p>
+                </div>
+               
                 <img src="assets/images/citi.jpg" alt="E-citizen" width="300px" height="300px">
             </div>
             <div>
-                <h3>Softwware equipments</h3>
-                <p>get your software devices at a good and better quality</p>
+                <h3>Software equipments</h3>
+                <div class="software-info">
+                     <p> 
+                         Our services include software installation, computer setup,<br>
+                        troubleshooting, system updates, antivirus protection, and maintenance<br>
+                        of digital devices. We also help clients choose the right software and<br>
+                        equipment based on their needs and budget.
+                    </p>
+                </div>
+                   
                 <img src="assets/images/software.jpg" alt="software" width="300px" height="300px"> 
             </div>
             <div>
                 <h3>web designing</h3>
-                <p>Get a responsive website with better quality designing structure </p>
+                <div class="web-info">
+                    <p >
+                        Our web design services include business websites, personal portfolios,<br>
+                        church websites, hotel websites, online service platforms, and landing<br>
+                        pages. We focus on clean layouts, attractive designs, smooth navigation,<br>
+                        and mobile-friendly experiences for all users. 
+                    </p>
+                </div>
+                
                 <img src="assets/images/web.jpg" alt="html" width="300px" height="300px">
             </div>
             <div>
                 <h3>Student services</h3>
-                <p>Even the Students are not left out;we offer student learning materials,scholarship placement,fee payment system,Helb Application</p>
+                <div class="student-info" >
+                    <p >
+                        Our student services include HELB applications, KUCCPS support,<br>
+                        online course registration, student portal assistance, assignment<br>
+                        typing, document printing, CV creation, and academic research support.<br>
+                        We aim to make digital academic services simple, fast, and convenient.
+                    </p>
+                </div>
+                
                 <img src="assets/images/stu.jpg" alt="stu" width="300px" height="300px">
             </div>
             <div>
                 <h3>Digital Marketing</h3>
-                <p>we help brands reach their clients easily</p>
+                <div class="market-info">
+                    <p >
+                        Our services include social media management, online advertising,<br>
+                        content creation, poster and flyer design, brand promotion, and<br>
+                        audience engagement. We help businesses build strong digital identities<br>
+                        that attract attention and increase visibility.
+                 </p>
+                </div>
+                
                 <img src="assets/images/digital-marketing.jpg" alt="Technology" width="300px" height="300px">
             </div>
         </section>
 
         <!--About Section-->
-        <section id="About">
-            <h3>About us</h3>
-            <p>we are a modern Technology company providing digital services aimed to individuals,schools,organizations</p>
-            <p>We are focused on building high quality digital experiences </p>
-            <a href="about.html">about</a>
+        <section id="About" class="company-info">
+            <h2>About</h2>
+            <p class="about-info">
+                SimifinTech is a modern digital solutions company focused on providing<br>
+                reliable, affordable, and innovative technology services. We specialize<br>
+                in web design, digital marketing, software support, student services,<br>
+                and E-Citizen assistance to help individuals and businesses grow in the<br>
+                digital world.
+            </p>
 
-        </section id="Contact">
-        <!--Contact Section-->
-        <section>
-            Get in touch with us on
-            <a href="contact.html">contact us</a>
+      <!--Contact Section--> 
+        <section id="contact"class="contact-details">
+            <h2>contact Us </h2>
+            <p class="contact-inf"> 
+                We would love to hear from you! Reach out to SimifinTech for inquiries,
+                support, or service requests. Our team is ready to assist you with any
+                digital solutions you need.
+            </p>
+            <div class="contact-info">
+                <label for="name ">Full Names</label>
+                <input type="text" required placeholder="enter your full name" id="fname" name="fname" /><br>
+                <label for="email"> Email Address</label>
+                <input type="email" required placeholder="enter your email" /><br>
+                <label for="Message">your message</label><br>
+                <textarea name="message" id="message" rows="5" cols="50" required placeholder=""></textarea><br><br>
+
+                <button type="submit"> send message</button>
+
+            </div>
+          
         </section>
 
         <!--footer-->
-        <section id="footer">
-            <footer> 
+        <section id="footer" class="site-fotter">
+            <footer class="site"> 
             <p>&copy; 2026 SimiFinTech Solutions. All rights reserved.</p>
             <div class="social-links">
                 <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
