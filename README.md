@@ -4,7 +4,7 @@ SimiFinTech-Solutions is a full stack digital platform designed to offer online 
 
 ## project overview
 
-This repository breaks the common used methods of physical presentation in cybers and it controls the modern space of cyber services all in one place giving people a work from anywhere solution.
+This repository breaks the common used methods of physical presentation in cybers and it controls the modern space of cyber services all in one place giving people a work from anywhere solution
 
 # Features #
 
